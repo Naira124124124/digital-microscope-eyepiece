@@ -2,9 +2,35 @@ echo ("Работа Назаровой Евгении!");
 
 $fn = 128;
 
-ocular();
-translate([0,0,35/2+5/2])
-top();
+color("green")
+translate([0,0,15])
+cube([160.2,77.2,9],center=true);
+cube([160.2,77.2,9],center=true);
+
+hull(){
+    color("red")
+    translate([162/2,77/2,0])
+    cylinder(d=10, h=9,center=true);
+    
+    mirror([1,0,0])
+    color("red")
+    translate([162/2,77/2,0])
+    cylinder(d=10, h=9,center=true);
+    
+    mirror([0,1,0])
+    color("red")
+    translate([162/2,77/2,0])
+    cylinder(d=10, h=9,center=true);
+    
+    mirror([1,0,0])
+    mirror([0,1,0])
+    color("red")
+    translate([162/2,77/2,0])
+    cylinder(d=10, h=9,center=true);
+}
+//ocular();
+//translate([0,0,35/2+5/2])
+//top();
 
 module top(){
     difference(){
