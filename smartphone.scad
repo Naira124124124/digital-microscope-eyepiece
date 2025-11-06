@@ -1,6 +1,8 @@
 $fn = 128;
 r_round_corner = 15;
 
+smartphone();
+
 module smartphone(){
     block();
     cameras();
