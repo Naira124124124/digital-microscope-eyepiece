@@ -1,4 +1,5 @@
 use <smartphone.scad>
+use <ocular.scad>
 
 echo ("Работа Назаровой Евгении!");
 
@@ -58,19 +59,5 @@ module frame1(){
         cube([162/2,77+10, 10], center=true);
         scale([1,1,2])
         block();
-    }
-}
-module top(){
-    difference(){
-        cylinder(d=30, h=5, center=true);
-        cylinder(d=23-0.5-3, h=15, center=true);
-    }
-}
-module ocular(){
-    translate([0,0,35/2+5/2])
-    top();
-    difference(){
-        cylinder(d=23-0.5, h = 35, center = true);
-        cylinder(d=23-0.5-3, h = 40, center = true);
     }
 }
