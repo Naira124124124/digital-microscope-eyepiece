@@ -22,6 +22,15 @@ difference(){
     holes_corner();
 }
 
+translate([95,-20,0])
+rotate([0,90,0])
+nut_m3();
+
+module nut_m3(){
+    cylinder(d=6+0.5,h=4,center=true, $fn=6);
+    cylinder(d=6+0.5,h=1,center=true, $fn=64);
+}
+
 module holes_corner(){
     translate([40,40,0.])
     rotate([90,0,0])
