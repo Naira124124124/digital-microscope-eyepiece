@@ -13,7 +13,7 @@ Universal Phone Microscope Adapter.
 # Окуляр
 ![Model in ](images/ocular.png)
 
-# Челюсти
+# Боковой держатель
 ![Model in ](images/jaws.png)
 
 # Модель смартфона Samsung A55
