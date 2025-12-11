@@ -16,6 +16,7 @@ phone_width = 77;
 //corner(thickness=20);
 
 //jaws
+half_jaws();
 
 module half_jaws(){
     difference(){

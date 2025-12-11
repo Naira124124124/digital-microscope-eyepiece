@@ -7,7 +7,9 @@
 микроскопа. Захват позволяет совместить оптическую ось объектива камеры смартфона с оптической осью окуляра микроскопа.
 
 Исходная модель захвата:
-![Модель в форматах STL и UPP](https//www.thingiverse.com/thing:431168) в репозитории на GitHub 
+[Модель в форматах STL и UPP](https//www.thingiverse.com/thing:431168) в репозитории на GitHub 
 Universal Phone Microscope Adapter.
 
+# Окуляр
+![Model in ](images/ocular.png)
 # Фотографии напечатанной модели
